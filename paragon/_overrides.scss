@@ -1,27 +1,19 @@
 a#controlled-tab-tab-\/register {
     display: none !important;
 }
-input#emailOrUsername {
+
+#sign-in-form > div[class="pgn__form-group"] {
     display: none !important;
 }
-input#password {
-    display: none !important;
-}
+
 button#sign-in{
     display: none !important;
 }
+
 a#forgot-password {
     display: none !important;
 }
 
-label.pgn__form-control-floating-label-text[for="emailOrUsername"] {
-    display: none !important;
-}
-
-label.pgn__form-control-floating-label-text[for="password"] {
-    display: none !important;
-}
-
-button.btn-icon.btn-icon-secondary.btn-icon-sm[aria-label="Show password"] {
+#sign-in-form > div.mt-4.mb-3.h4 {
     display: none !important;
 }
