@@ -2,6 +2,10 @@ a#controlled-tab-tab-\/register {
     display: none !important;
 }
 
+a#controlled-tab-tab-\/login {
+    pointer-events: none;
+}
+
 #sign-in-form > div[class="pgn__form-group"] {
     display: none !important;
 }
