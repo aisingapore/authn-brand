@@ -21,3 +21,7 @@ a#forgot-password {
 #sign-in-form > div.mt-4.mb-3.h4 {
     display: none !important;
 }
+
+#sign-in-form > div.mt-4.mb-3.h4::after {
+    content: 'Please click the button below to sign in using Azure';
+}
