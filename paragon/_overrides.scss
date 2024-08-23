@@ -10,7 +10,15 @@ a#controlled-tab-tab-\/login {
     display: none !important;
 }
 
+#registration-form > div[class="pgn__form-group"] {
+    display: none !important;
+}
+
 button#sign-in{
+    display: none !important;
+}
+
+button#register-user{
     display: none !important;
 }
 
@@ -22,7 +30,16 @@ a#forgot-password {
     visibility: hidden;
 }
 
+#registration-form > div.mt-4.mb-3.h4 {
+    visibility: hidden;
+}
+
 #sign-in-form > div.mt-4.mb-3.h4::before {
+    visibility: visible;
+    content: 'Please click the button below to sign in using Azure:';
+}
+
+#registration-form > div.mt-4.mb-3.h4::before {
     visibility: visible;
     content: 'Please click the button below to sign in using Azure:';
 }
